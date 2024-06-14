@@ -1,0 +1,130 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.0 (Amazon.com Inc. Java 11.0.23)
+[debug]       Load.loadUnit: plugins took 114.050578ms
+[debug]       Load.loadUnit: defsScala took 0.30353ms
+[debug] [Loading] Scanning directory /Users/vinodh/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/vinodh/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 18.839293 ms
+[debug]           Load.resolveProject(global-plugins) took 75.913884ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/vinodh/.sbt/1.0/plugins, plugins: List(<none>))) took 130.709139ms
+[debug] [Loading] Done in /Users/vinodh/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 175.233715ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.301147ms
+[debug]     Load.loadUnit(file:/Users/vinodh/.sbt/1.0/plugins/, ...) took 298.137943ms
+[debug]   Load.apply: load took 637.656263ms
+[debug]   Load.apply: resolveProjects took 6.616992ms
+[debug]   Load.apply: finalTransforms took 60.173866ms
+[debug]   Load.apply: config.delegates took 6.503627ms
+[debug]   Load.apply: Def.make(settings)... took 500.619059ms
+[debug]   Load.apply: structureIndex took 94.471751ms
+[debug]   Load.apply: mkStreams took 1.501032ms
+[info] loading global plugins from /Users/vinodh/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2752.105344ms
+[debug]           Load.loadUnit: plugins took 16.528745ms
+[debug]           Load.loadUnit: defsScala took 0.004586ms
+[debug] [Loading] Scanning directory /Users/vinodh/IdeaProjects/scala-pb/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/vinodh/IdeaProjects/scala-pb/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.063038 ms
+[debug]               Load.resolveProject(scala-pb-build) took 0.948694ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scala-pb-build, base: /Users/vinodh/IdeaProjects/scala-pb/project, plugins: List(<none>))) took 3.49845ms
+[debug] [Loading] Done in /Users/vinodh/IdeaProjects/scala-pb/project, returning: (scala-pb-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 5.096866ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.008881ms
+[debug]         Load.loadUnit(file:/Users/vinodh/IdeaProjects/scala-pb/project/, ...) took 22.307697ms
+[debug]       Load.apply: load took 23.419628ms
+[debug]       Load.apply: resolveProjects took 0.106978ms
+[debug]       Load.apply: finalTransforms took 9.025681ms
+[debug]       Load.apply: config.delegates took 0.369163ms
+[debug]       Load.apply: Def.make(settings)... took 89.152101ms
+[debug]       Load.apply: structureIndex took 27.411016ms
+[debug]       Load.apply: mkStreams took 0.002994ms
+[info] loading project definition from /Users/vinodh/IdeaProjects/scala-pb/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 396.543819ms
+[debug]     Load.loadUnit: defsScala took 0.004704ms
+[debug] [Loading] Scanning directory /Users/vinodh/IdeaProjects/scala-pb
+[debug]       Load.loadUnit: mkEval took 8.408455ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.173099 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.476006ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /Users/vinodh/IdeaProjects/scala-pb, plugins: List(<none>))) took 5.685694ms
+[debug] [Loading] Done in /Users/vinodh/IdeaProjects/scala-pb, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1809.009733ms
+[debug]     Load.loadUnit: cleanEvalClasses took 6.587989ms
+[debug]   Load.loadUnit(file:/Users/vinodh/IdeaProjects/scala-pb/, ...) took 2212.843459ms
+[debug] Load.apply: load took 2214.105222ms
+[debug] Load.apply: resolveProjects took 0.133744ms
+[debug] Load.apply: finalTransforms took 10.672969ms
+[debug] Load.apply: config.delegates took 0.348845ms
+[debug] Load.apply: Def.make(settings)... took 65.903591ms
+[debug] Load.apply: structureIndex took 23.037294ms
+[debug] Load.apply: mkStreams took 0.002884ms
+[info] set current project to scala-pb (in build file:/Users/vinodh/IdeaProjects/scala-pb/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] 
+[info] Here are some highlights of sbt 1.10.0:
+[info]   - SIP-51 support for Scala 2.13 evolution
+[info]   - Various Zinc fixes
+[info]   - ConsistentAnalysisFormat: new Zinc Analysis serialization
+[info]   - CommandProgress API
+[info] See https://eed3si9n.com/sbt-1.10.0 for full release notes.
+[info] Hide the banner for this release by running `skipBanner`.
+[info] sbt server started at local:///Users/vinodh/.sbt/1.0/server/3ee363c42293cef3aa89/sock
+[debug] Writing bsp connection file
+[info] started sbt server

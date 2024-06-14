@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0mAttempting to fetch com.google.protobuf % protoc % 3.15.6. This operation may fail.[0m
+[0m[[0m[0minfo[0m] [0m[0mUpdating temp-module-a18aab6ac9053f1c099387d5682f2e5486ae7ba4[0m
+[0m[[0m[0minfo[0m] [0m[0mResolved temp-module-a18aab6ac9053f1c099387d5682f2e5486ae7ba4 dependencies[0m
+[0m[[0m[0minfo[0m] [0m[0mFetching artifacts of temp-module-a18aab6ac9053f1c099387d5682f2e5486ae7ba4[0m
+[0m[[0m[0minfo[0m] [0m[0mFetched artifacts of temp-module-a18aab6ac9053f1c099387d5682f2e5486ae7ba4[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles retrieved for com.google.protobuf % protoc % 3.15.6:[0m
+[0m[[0m[0mdebug[0m] [0m[0m/Users/vinodh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protoc/3.15.6/protoc-3.15.6-osx-x86_64.exe, /Users/vinodh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protoc/3.15.6/protoc-3.15.6-osx-x86_64.exe, /Users/vinodh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protoc/3.15.6/protoc-3.15.6-osx-x86_64.exe[0m
