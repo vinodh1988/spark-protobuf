@@ -10,8 +10,12 @@ lazy val root = (project in file("."))
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % "3.5.1",
   "org.apache.spark" %% "spark-sql" % "3.5.1",
-  "org.apache.spark" %%"spark-protobuf"% "3.5.1"
-  // Include SparkSQL Protobuf support
+  "org.apache.spark" %%"spark-protobuf"% "3.5.1",
+  // Include SparkSQL Protobuf suppor
+// Spark Kafka Integration
+"org.apache.spark" %% "spark-sql-kafka-0-10" % "3.5.1",
+  "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.15.2",
+  "com.thesamet.scalapb" %% "scalapb-runtime" % "0.11.6"
 
 )
 

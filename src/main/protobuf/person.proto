@@ -7,3 +7,6 @@ message person {
   int32 id = 2;  // Unique ID number for this person
   string email = 3;
 }
+
+//compilation
+//protoc --descriptor_set_out=person.desc person.proto
